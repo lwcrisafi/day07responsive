@@ -1,0 +1,133 @@
+$mobile: 768px;
+$laptop: 1200px;
+
+
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+ 
+  
+}
+@media (min-width: $mobile) and (max-width: $laptop) { 
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+
+    nav{
+        flex-direction: row;
+        max-width: 25%;
+        flex-wrap: wrap;
+         a {
+            width: 22%;
+         }
+
+    }
+    .plans {
+        width: 100%;
+        display: flex;
+        flex: {
+            direction:row;
+            wrap: wrap;
+        }
+        
+        
+    }
+    .card {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media (min-width: $laptop) {
+     header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+
+    nav{
+        flex-direction: row;
+        max-width: 25%;
+        flex-wrap: wrap;
+         a {
+            width: 22%;
+         }
+
+    }
+    .plans {
+        width: 100%;
+        display: flex;
+        flex: {
+            direction:row;
+            wrap: wrap;
+        }
+        
+        
+    }
+    .card {
+        width: 23%;
+        margin: 1%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media (max-width: $mobile) {
+//   .container {
+
+//   a  { display: flex;
+//     flex-direction: row;
+//     min-width: 25%;}
+//   }
+// }
+// @media (max-width: $mobile) and (min-width: $laptop) {
+//   .container {
+//     display: flex;
+//     flex-direction: row;
+//     min-width: 25%;
+//     nav {
+//      a  { display: flex;
+//     flex-direction: row;
+//     min-width: 25%;}
+//   }
+// }
+// }
+
+// @media (max-width: $laptop) {
+//   .nav {
+//    display: flex;
+//     flex-direction: column;
+//     min-width: 25%;
+//     }
+//   }
+
